@@ -84,6 +84,10 @@ body{
   display: flex;
   justify-content: flex-end;
 }
+
+.product-detail-img img{
+  width: 100%;
+}
 .product-info{
   font-size: 20px;
   margin-bottom: 10px;

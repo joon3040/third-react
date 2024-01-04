@@ -28,10 +28,10 @@ const ProductDetail = () => {
         </Alert>
       ) : (
         <Row>
-          <Col className="product-detail-img">
+          <Col xs={12} md={6} className="product-detail-img">
             <img src={product.img} />
           </Col>
-          <Col>
+          <Col xs={12} md={6}>
             <div className="product-info">{product.title}</div>
             <div className="product-info">₩ {product.price}</div>
             <div className="choice">
